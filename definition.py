@@ -1,3 +1,115 @@
+def TestSemanticPy(TestCase):
+    def setUp(self):
+        self.documents = ["The cat in the hat disabled", "A cat is a fine pet ponies.", "Dogs and cats make good pets.","I haven't got a hat."]
+    
+    def it_should_search_test(self):
+        vectorSpace = VectorSpace(self.documents)
+  	
+        eq_(vectorSpace.search(["cat"]), [0.14487566959813258, 0.1223402602604157, 0.07795622058966725, 0.05586504042763477])
+
+    def it_should_find_return_similarity_rating_test(self):
+        vectorSpace = VectorSpace(self.documents)
+
+        eq_(vectorSpace.related(0), [1.0, 0.9922455760198575, 0.08122814162371816, 0.0762173599906487])
+def ParserTest(TestCase):
+  class FakeStopWords:
+    def __init__(self, stop_words=''):
+      self.stop_words = stop_words
+
+    def read(self):
+      return self.stop_words
+
+  def create_parser_with_stopwords(self, words_string):
+    return Parser(ParserTest.FakeStopWords(words_string))
+  
+  def create_parser(self):
+    return Parser(ParserTest.FakeStopWords())
+    
+  def it_should_remove_the_stopwords_test(self):
+    parser = self.create_parser_with_stopwords('a')
+    
+    parsed_words = parser.tokenise_and_remove_stop_words(["a", "sheep"])
+    
+    eq_(parsed_words, ["sheep"])
+  
+  def it_should_stem_words_test(self):
+    parser = self.create_parser()
+    
+    parsed_words = parser.tokenise_and_remove_stop_words(["monkey"])
+    
+    eq_(parsed_words, ["monkei"])
+
+  def it_should_remove_grammar_test(self):
+    parser = self.create_parser()
+    
+    parsed_words = parser.tokenise_and_remove_stop_words(["sheep..."])
+    
+    eq_(parsed_words, ["sheep"])
+    
+  def it_should_return_an_empty_list__when_words_string_is_empty_test(self):
+    parser = self.create_parser()
+    
+    parsed_words = parser.tokenise_and_remove_stop_words([])
+    
+    eq_(parsed_words, [])
+
+    def TestSemanticPy(TestCase):
+        def setUp(self):
+            self.documents = ["The cat in the hat disabled", "A cat is a fine pet ponies.", "Dogs and cats make good pets.","I haven't got a hat."]
+        
+        def it_should_search_test(self):
+            vectorSpace = VectorSpace(self.documents)
+      	
+            eq_(vectorSpace.search(["cat"]), [0.14487566959813258, 0.1223402602604157, 0.07795622058966725, 0.05586504042763477])
+
+        def it_should_find_return_similarity_rating_test(self):
+            vectorSpace = VectorSpace(self.documents)
+
+            eq_(vectorSpace.related(0), [1.0, 0.9922455760198575, 0.08122814162371816, 0.0762173599906487])
+    def ParserTest(TestCase):
+      class FakeStopWords:
+        def __init__(self, stop_words=''):
+          self.stop_words = stop_words
+
+        def read(self):
+          return self.stop_words
+
+      def create_parser_with_stopwords(self, words_string):
+        return Parser(ParserTest.FakeStopWords(words_string))
+      
+      def create_parser(self):
+        return Parser(ParserTest.FakeStopWords())
+        
+      def it_should_remove_the_stopwords_test(self):
+        parser = self.create_parser_with_stopwords('a')
+        
+        parsed_words = parser.tokenise_and_remove_stop_words(["a", "sheep"])
+        
+        eq_(parsed_words, ["sheep"])
+      
+      def it_should_stem_words_test(self):
+        parser = self.create_parser()
+        
+        parsed_words = parser.tokenise_and_remove_stop_words(["monkey"])
+        
+        eq_(parsed_words, ["monkei"])
+
+      def it_should_remove_grammar_test(self):
+        parser = self.create_parser()
+        
+        parsed_words = parser.tokenise_and_remove_stop_words(["sheep..."])
+        
+        eq_(parsed_words, ["sheep"])
+        
+      def it_should_return_an_empty_list__when_words_string_is_empty_test(self):
+        parser = self.create_parser()
+        
+        parsed_words = parser.tokenise_and_remove_stop_words([])
+        
+        eq_(parsed_words, [])
+
+        
+
 def gap():
 	from sklearn.cluster import AffinityPropagation
 	from sklearn import metrics
