@@ -1,2350 +1,1216 @@
 graph [
-  DateObtained "6/11/10"
-  GeoLocation "Europe"
-  GeoExtent "Continent"
-  Network "Colt Telecom "
+  DateObtained "30/10/10"
+  GeoLocation "Mexico"
+  GeoExtent "Country"
+  Network "Bestel "
   Provenance "Primary"
-  Access 0
-  Source "http://www.colt.net/oracleUCM/groups/public/documents/digitalasset/colt_011195.pdf"
+  Note "Colo"
+  Source "http://www.bestel.com.mx/shocked/red_bestel.pdf"
   Version "1.0"
-  DateType "Current"
+  DateType "Historic"
   Type "COM"
   Backbone 1
   Commercial 0
-  label "Colt"
+  label "RedBestel"
   ToolsetVersion "0.3.34dev-20120328"
   Customer 1
   IX 0
   SourceGitVersion "e278b1b"
   DateModifier "="
-  DateMonth "08"
+  DateMonth "12"
   LastAccess "3/08/10"
-  Layer "IP"
+  Access 0
+  Layer "Fibre"
   Creator "Topology Zoo Toolset"
   Developed 0
   Transit 1
-  NetworkDate "2010_08"
-  DateYear "2010"
+  NetworkDate "2006_12"
+  DateYear "2006"
   LastProcessed "2011_09_01"
   Testbed 0
   node [
     id 0
-    label "Linz"
-    Country "Austria"
-    Longitude 14.28611
+    label "Culiacan"
+    Country "Mexico"
+    Longitude -107.38972
     Internal 1
-    Latitude 48.30639
-    type "Colt connected City"
+    Latitude 24.79944
   ]
   node [
     id 1
-    label "St Pollen"
-    Country "Switzerland"
-    Longitude 9.37477
+    label "Mazatlan"
+    Country "Mexico"
+    Longitude -106.41667
     Internal 1
-    Latitude 47.42391
-    type "Colt connected City"
+    Latitude 23.21667
   ]
   node [
     id 2
-    label "Rostock"
-    Country "Germany"
-    Longitude 12.14049
+    label "Hermosillo"
+    Country "Mexico"
+    Longitude -110.96667
     Internal 1
-    Latitude 54.0887
-    type "Colt connected City"
+    Latitude 29.06667
   ]
   node [
     id 3
-    label "Potsdam"
-    Country "Germany"
-    Longitude 13.06566
+    label "Guaymas"
+    Country "Mexico"
+    Longitude -110.9
     Internal 1
-    Latitude 52.39886
-    type "Colt connected City"
+    Latitude 27.93333
   ]
   node [
     id 4
-    label "Leipzig"
-    Country "Germany"
-    Longitude 12.37129
+    label "Aguascalientes"
+    Country "Mexico"
+    Longitude -102.3
     Internal 1
-    Latitude 51.33962
-    type "Colt connected City"
+    Latitude 21.88333
   ]
   node [
     id 5
-    label "Dresden"
-    Country "Germany"
-    Longitude 13.73832
+    label "San Luis Potosi"
+    Country "Mexico"
+    Longitude -100.98333
     Internal 1
-    Latitude 51.05089
-    type "Colt connected City"
+    Latitude 22.15
   ]
   node [
     id 6
-    label "Krakov"
-    Country "Poland"
-    Longitude 19.91667
+    label "Durango"
+    Country "Mexico"
+    Longitude -104.66667
     Internal 1
-    Latitude 50.08333
-    type "Colt connected City"
+    Latitude 24.03333
   ]
   node [
     id 7
-    label "Warsaw"
-    Country "Poland"
-    Longitude 21.01178
+    label "Tepic"
+    Country "Mexico"
+    Longitude -104.9
     Internal 1
-    Latitude 52.22977
-    type "Colt connected City"
+    Latitude 21.5
   ]
   node [
     id 8
-    label "Nuremberg"
-    Country "Germany"
-    Longitude 11.06833
+    label "Tepatitlan"
+    Country "Mexico"
+    Longitude -102.73333
     Internal 1
-    Latitude 49.44778
-    type "Colt connected City"
+    Latitude 20.81667
   ]
   node [
     id 9
-    label "Erding"
-    Country "Germany"
-    Longitude 11.90686
+    label "San Miguel El Alto"
+    Country "Mexico"
+    Longitude -102.35
     Internal 1
-    Latitude 48.30603
-    type "Colt connected City"
+    Latitude 21.01667
   ]
   node [
     id 10
-    label "Vienna"
-    Country "Austria"
-    Longitude 16.37208
+    label "Leon"
+    Country "Mexico"
+    Longitude -101.66667
     Internal 1
-    Latitude 48.20849
-    type "MAN"
+    Latitude 21.11667
   ]
   node [
     id 11
-    label "Prague"
-    Country "Czech Republic"
-    Longitude 14.42076
+    label "Celaya"
+    Country "Mexico"
+    Longitude -100.81667
     Internal 1
-    Latitude 50.08804
-    type "MAN"
+    Latitude 20.51667
   ]
   node [
     id 12
-    label "Mannheim"
-    Country "Germany"
-    Longitude 8.46472
+    label "Jilotepec"
+    Country "Mexico"
+    Longitude -99.53472
     Internal 1
-    Latitude 49.48833
-    type "Colt connected City"
+    Latitude 19.95278
   ]
   node [
     id 13
-    label "Munich"
-    Country "Germany"
-    Longitude 11.57549
+    label "Yurecuaro"
+    Country "Mexico"
+    Longitude -102.3
     Internal 1
-    Latitude 48.13743
-    type "MAN"
+    Latitude 20.33333
   ]
   node [
     id 14
-    label "Cologne"
-    Country "Germany"
-    Longitude 6.95
+    label "Irolo"
+    Country "Mexico"
+    Longitude -98.59028
     Internal 1
-    Latitude 50.93333
-    type "MAN"
+    Latitude 19.73472
   ]
   node [
     id 15
-    label "The Hague"
-    Country "Netherlands"
-    Longitude 4.29861
+    label "Rio Fro"
+    Country "Mexico"
+    Longitude -98.66667
     Internal 1
-    Latitude 52.07667
-    type "MAN"
+    Latitude 19.35
   ]
   node [
     id 16
-    label "Hannover"
-    Country "Germany"
-    Longitude 9.73322
+    label "Gral Bravo"
+    Country "Mexico"
+    Longitude -99.16667
     Internal 1
-    Latitude 52.37052
-    type "MAN"
+    Latitude 25.8
   ]
   node [
     id 17
-    label "Dusseldorf"
-    Country "Germany"
-    Longitude 6.77616
+    label "San Miguel"
     Internal 1
-    Latitude 51.22172
-    type "MAN"
   ]
   node [
     id 18
-    label "Antwerp"
-    Country "Belgium"
-    Longitude 4.41667
+    label "Monterrey"
+    Country "Mexico"
+    Longitude -100.31667
     Internal 1
-    Latitude 51.21667
-    type "MAN"
+    Latitude 25.66667
   ]
   node [
     id 19
-    label "Rotterdam"
-    Country "Netherlands"
-    Longitude 4.47917
+    label "Mexico"
+    Country "Mexico"
+    Longitude -99.12766
     Internal 1
-    Latitude 51.9225
-    type "MAN"
+    Latitude 19.42847
   ]
   node [
     id 20
-    label "Sintra"
-    Country "Portugal"
-    Longitude -9.37826
+    label "Talia"
+    Country "Mexico"
+    Longitude -102.4
     Internal 1
-    Latitude 38.80097
-    type "Colt connected City"
+    Latitude 25.71667
   ]
   node [
     id 21
-    label "Catania"
-    Country "Italy"
-    Longitude 15.08719
+    label "Candela"
+    Country "Mexico"
+    Longitude -100.66667
     Internal 1
-    Latitude 37.50213
-    type "Colt connected City"
+    Latitude 26.83333
   ]
   node [
     id 22
-    label "Porto"
-    Country "Portugal"
-    Longitude -8.61667
+    label "La Sauceda"
+    Country "Mexico"
+    geocode_id "3983363"
     Internal 1
-    Latitude 41.15
-    type "MAN"
+    Longitude -101.3
+    Latitude 25.83333
   ]
   node [
     id 23
-    label "Lisbon"
-    Country "Portugal"
-    Longitude -9.13333
+    label "El Salado"
+    Country "Mexico"
+    Longitude -100.86667
     Internal 1
-    Latitude 38.71667
-    type "Data Centre and MAN"
+    Latitude 24.3
   ]
   node [
     id 24
-    label "Sassari"
-    Country "Italy"
-    Longitude 8.56028
+    label "San Rafael"
+    Country "Mexico"
+    Longitude -99.71667
     Internal 1
-    Latitude 40.72722
-    type "Colt connected City"
+    Latitude 25.23333
   ]
   node [
     id 25
-    label "Bari"
-    Country "Italy"
-    Longitude 16.85118
+    label "Laguna Seca"
+    Country "Mexico"
+    geocode_id "4002098"
     Internal 1
-    Latitude 41.11773
-    type "Colt connected City"
+    Longitude -100.95
+    Latitude 23.28333
   ]
   node [
     id 26
-    label "Palermo"
-    Country "Italy"
-    Longitude 13.35976
+    label "Matehlala"
+    Country "Mexico"
+    Longitude -100.65
     Internal 1
-    Latitude 38.11582
-    type "Colt connected City"
+    Latitude 23.65
   ]
   node [
     id 27
-    label "Cagliari"
-    Country "Italy"
-    Longitude 9.13462
+    label "El Huizache"
+    Country "Mexico"
+    Longitude -100.46667
     Internal 1
-    Latitude 39.20738
-    type "Colt connected City"
+    Latitude 22.93333
   ]
   node [
     id 28
-    label "Boston"
-    Country "United Kingdom"
-    Longitude -0.01667
+    label "Jesus M Aguirre"
+    Country "Mexico"
+    Longitude -100.36667
     Internal 1
-    Latitude 52.98333
-    type "Colt connected City"
+    Latitude 24.4
   ]
   node [
     id 29
-    label "Chicago"
-    Country "Sweden"
-    Longitude 16.43333
+    label "SN Jose De Gracia"
+    Country "Mexico"
+    geocode_id "3986227"
     Internal 1
-    Latitude 59.38333
-    type "Colt connected City"
+    Longitude -104.3
+    Latitude 21.03333
   ]
   node [
     id 30
-    label "Karlsruhe"
-    Country "Germany"
-    Longitude 8.38583
+    label "Ruiz"
+    geocode_append "Nayarit"
+    Country "Mexico"
+    Longitude -105.15
     Internal 1
-    Latitude 49.00472
-    type "Colt connected City"
+    Latitude 21.95
   ]
   node [
     id 31
-    label "Boblingen"
-    Country "Germany"
-    Longitude 9.01667
+    label "Saltillo"
+    Country "Mexico"
+    Longitude -101.0
     Internal 1
-    Latitude 48.68333
-    type "Colt connected City"
+    Latitude 25.41667
   ]
   node [
     id 32
-    label "Pfaffikon"
-    Country "Switzerland"
-    Longitude 8.79202
+    label "Cuernavaca"
+    Country "Mexico"
+    Longitude -99.25
     Internal 1
-    Latitude 47.36453
-    type "Colt connected City"
+    Latitude 18.91667
   ]
   node [
     id 33
-    label "St Gallen"
-    Country "Switzerland"
-    Longitude 9.37614
+    label "Nopala"
+    geocode_append "Hidalgo"
+    Country "Mexico"
+    Longitude -99.65
     Internal 1
-    Latitude 47.42971
-    type "Colt connected City"
+    Latitude 20.25
   ]
   node [
     id 34
-    label "Esslingen"
-    Country "Germany"
-    Longitude 9.30473
+    label "Tijuana"
+    Country "Mexico"
+    Longitude -117.01667
     Internal 1
-    Latitude 48.73961
-    type "Colt connected City"
+    Latitude 32.53333
   ]
   node [
     id 35
-    label "Winterthur"
-    Country "Switzerland"
-    Longitude 8.75
+    label "Navojoa"
+    Country "Mexico"
+    Longitude -109.43333
     Internal 1
-    Latitude 47.5
-    type "Colt connected City"
+    Latitude 27.1
   ]
   node [
     id 36
-    label "Lausanne"
-    Country "Switzerland"
-    Longitude 6.63282
+    label "Ixtlan"
+    Country "Mexico"
+    Longitude -102.4
     Internal 1
-    Latitude 46.516
-    type "Colt connected City"
+    Latitude 20.18333
   ]
   node [
     id 37
-    label "Biel/Bienne"
-    Country "Switzerland"
-    Longitude 7.24411
+    label "S Juan Del Rio"
+    Country "Mexico"
+    Longitude -100.0
     Internal 1
-    Latitude 47.1324
-    type "Colt connected City"
+    Latitude 20.38333
   ]
   node [
     id 38
-    label "Schaffhausen"
-    Country "Switzerland"
-    Longitude 8.63333
+    label "Jilotepec"
+    Country "Mexico"
+    Longitude -99.53472
     Internal 1
-    Latitude 47.7
-    type "Colt connected City"
+    Latitude 19.95278
   ]
   node [
     id 39
-    label "Nyon"
-    Country "Switzerland"
-    Longitude 6.23955
+    label "Los Mochis"
+    Country "Mexico"
+    Longitude -108.96667
     Internal 1
-    Latitude 46.38318
-    type "Colt connected City"
+    Latitude 25.76667
   ]
   node [
     id 40
-    label "Charleroi"
-    Country "Belgium"
-    Longitude 4.43333
+    label "San Blas"
+    geocode_append "Sinaloa"
+    Country "Mexico"
+    Longitude -108.76667
     Internal 1
-    Latitude 50.41667
-    type "Colt connected City"
+    Latitude 26.08333
   ]
   node [
     id 41
-    label "Liege"
-    Country "Belgium"
-    Longitude 5.57178
+    label "Leon Fonseca"
+    Country "Mexico"
+    Longitude -108.35
     Internal 1
-    Latitude 50.64119
-    type "Colt connected City"
+    Latitude 25.73333
   ]
   node [
     id 42
-    label "Anderlecht"
-    Country "Belgium"
-    Longitude 4.31454
+    label "Guasave"
+    Country "Mexico"
+    Longitude -108.45
     Internal 1
-    Latitude 50.83619
-    type "Colt connected City"
+    Latitude 25.56667
   ]
   node [
     id 43
-    label "Mons"
-    Country "Belgium"
-    Longitude 3.95229
+    label "Guamuchil"
+    Country "Mexico"
+    Longitude -108.1
     Internal 1
-    Latitude 50.45413
-    type "Colt connected City"
+    Latitude 25.46667
   ]
   node [
     id 44
-    label "Leuven"
-    Country "Belgium"
-    Longitude 4.70093
+    label "La Cruz De Elota"
+    Country "Mexico"
+    Longitude -106.9
     Internal 1
-    Latitude 50.87959
-    type "Colt connected City"
+    Latitude 23.91667
   ]
   node [
     id 45
-    label "Eindhoven"
-    Country "Netherlands"
-    Longitude 5.47778
+    label "Escuinapa"
+    Country "Mexico"
+    Longitude -105.8
     Internal 1
-    Latitude 51.44083
-    type "Colt connected City"
+    Latitude 22.85
   ]
   node [
     id 46
-    label "Luxembourg"
-    Country "Luxembourg"
-    Longitude 6.13
+    label "Artesia Wells"
+    Country "United States"
+    Longitude -99.28448
     Internal 1
-    Latitude 49.61167
-    type "Colt connected City"
+    Latitude 28.28
   ]
   node [
     id 47
-    label "Evere"
-    Country "Belgium"
-    Longitude 4.4
+    label "Moore"
+    Country "United States"
+    Longitude -99.01031
     Internal 1
-    Latitude 50.86667
-    type "Colt connected City"
+    Latitude 29.05524
   ]
   node [
     id 48
-    label "Breda"
-    Country "Netherlands"
-    Longitude 4.77596
+    label "Torreon"
+    Country "Mexico"
+    Longitude -103.43333
     Internal 1
-    Latitude 51.58656
-    type "Colt connected City"
+    Latitude 25.55
   ]
   node [
     id 49
-    label "Den Bosch"
-    Country "Netherlands"
-    Longitude 5.30417
+    label "Tilden"
+    Country "United States"
+    Longitude -98.54918
     Internal 1
-    Latitude 51.69917
-    type "Colt connected City"
+    Latitude 28.46194
   ]
   node [
     id 50
-    label "Copenhagen"
-    Country "Denmark"
-    Longitude 12.56553
+    label "San Isidro"
+    Country "United States"
+    Longitude -98.4539
     Internal 1
-    Latitude 55.67594
-    type "Data Centre and MAN"
+    Latitude 26.71672
   ]
   node [
     id 51
-    label "Hamburg"
-    Country "Germany"
-    Longitude 10.0
+    label "Hebbronville"
+    Country "United States"
+    Longitude -98.67835
     Internal 1
-    Latitude 53.55
-    type "Data Centre and MAN"
+    Latitude 27.30671
   ]
   node [
     id 52
-    label "Malmo"
-    Country "Sweden"
-    Longitude 13.00073
+    label "San Diego Del Union"
+    Country "Mexico"
+    Longitude -100.86667
     Internal 1
-    Latitude 55.60587
-    type "Colt connected City"
+    Latitude 21.46667
   ]
   node [
     id 53
-    label "Aarhus"
-    Country "Denmark"
-    Longitude 10.21076
+    label "CD Obregon"
+    Country "Mexico"
+    Longitude -109.93333
     Internal 1
-    Latitude 56.15674
-    type "Colt connected City"
+    Latitude 27.48333
   ]
   node [
     id 54
-    label "Newark"
-    Country "United Kingdom"
-    Longitude -0.81667
+    label "Yerbanis"
+    Country "Mexico"
+    Longitude -103.84306
     Internal 1
-    Latitude 53.06667
-    type "Colt connected City"
+    Latitude 24.73778
   ]
   node [
     id 55
-    label "New York"
-    Country "United Kingdom"
-    Longitude -0.14008
+    label "Irapuato"
+    Country "Mexico"
+    Longitude -101.35
     Internal 1
-    Latitude 53.07897
-    type "Colt connected City"
+    Latitude 20.68333
   ]
   node [
     id 56
-    label "Stockholm"
-    Country "Sweden"
-    Longitude 18.0649
+    label "Benjamin Hill"
+    Country "Mexico"
+    Longitude -111.1
     Internal 1
-    Latitude 59.33258
-    type "MAN"
+    Latitude 30.16667
   ]
   node [
     id 57
-    label "Helsinki"
-    Country "Finland"
-    Longitude 24.93545
+    label "Jalapa"
+    Country "Mexico"
+    Longitude -96.91667
     Internal 1
-    Latitude 60.16952
-    type "Colt connected City"
+    Latitude 19.53333
   ]
   node [
     id 58
-    label "Gothenburg"
-    Country "Sweden"
-    Longitude 11.96679
+    label "Puebla"
+    Country "Mexico"
+    Longitude -98.2
     Internal 1
-    Latitude 57.70716
-    type "Colt connected City"
+    Latitude 19.05
   ]
   node [
     id 59
-    label "Oslo"
-    Country "Norway"
-    Longitude 10.74609
+    label "Toluca"
+    Country "Mexico"
+    Longitude -99.66722
     Internal 1
-    Latitude 59.91273
-    type "Colt connected City"
+    Latitude 19.28833
   ]
   node [
     id 60
-    label "None"
-    hyperedge 1
+    label "Queretaro"
+    Country "Mexico"
+    Longitude -100.38333
     Internal 1
+    Latitude 20.6
   ]
   node [
     id 61
-    label "Brindisi"
-    Country "Italy"
-    Longitude 17.93682
+    label "Nuevo Laredo"
+    Country "Mexico"
+    Longitude -99.51667
     Internal 1
-    Latitude 40.62773
-    type "Colt connected City"
+    Latitude 27.5
   ]
   node [
     id 62
-    label "None"
-    hyperedge 1
+    label "Hidalgo"
+    Country "United States"
+    Longitude -98.23001
     Internal 1
+    Latitude 26.20341
   ]
   node [
     id 63
-    label "Lucerne"
-    Country "Switzerland"
-    Longitude 8.30635
+    label "Reynosa"
+    Country "Mexico"
+    Longitude -98.28333
     Internal 1
-    Latitude 47.05048
-    type "Colt connected City"
+    Latitude 26.08333
   ]
   node [
     id 64
-    label "Chiasso"
-    Country "Switzerland"
-    Longitude 9.03333
+    label "Veracruz"
+    Country "Mexico"
+    Longitude -96.13333
     Internal 1
-    Latitude 45.83333
-    type "Colt connected City"
+    Latitude 19.2
   ]
   node [
     id 65
-    label "Piacenza"
-    Country "Italy"
-    Longitude 9.69937
+    label "Saljnas"
+    Country "Mexico"
+    Longitude -101.71667
     Internal 1
-    Latitude 45.04676
-    type "Colt connected City"
+    Latitude 22.63333
   ]
   node [
     id 66
-    label "Genova"
-    Country "Italy"
-    Longitude 8.93386
+    label "Salvatierra"
+    Country "Mexico"
+    Longitude -100.88333
     Internal 1
-    Latitude 44.40632
-    type "Colt connected City"
+    Latitude 20.21667
   ]
   node [
     id 67
-    label "Livorno"
-    Country "Italy"
-    Longitude 10.316
+    label "MA"
+    Country "United States"
+    Longitude -99.00114
     Internal 1
-    Latitude 43.54264
-    type "Colt connected City"
+    Latitude 27.43975
   ]
   node [
     id 68
-    label "Firenze"
-    Country "Italy"
-    Longitude 11.25
+    label "None"
+    hyperedge 1
     Internal 1
-    Latitude 43.76667
-    type "Colt connected City"
   ]
   node [
     id 69
-    label "Rimini"
-    Country "Italy"
-    Longitude 12.58083
+    label "Laredo"
+    Country "Mexico"
+    Longitude -99.51667
     Internal 1
-    Latitude 44.06333
-    type "Colt connected City"
+    Latitude 27.5
   ]
   node [
     id 70
-    label "Parma"
-    Country "Italy"
-    Longitude 10.32898
+    label "Mirando City"
+    Country "United States"
+    Longitude -99.00114
     Internal 1
-    Latitude 44.80266
-    type "Colt connected City"
+    Latitude 27.43975
   ]
   node [
     id 71
-    label "Varese"
-    Country "Italy"
-    Longitude 8.82193
+    label "Las Adjuntas"
+    Country "Mexico"
+    geocode_id "4000373"
     Internal 1
-    Latitude 45.82908
-    type "Colt connected City"
+    Longitude -105.51667
+    Latitude 23.73333
   ]
   node [
     id 72
-    label "Como"
-    Country "Italy"
-    Longitude 9.08744
+    label "Alice"
+    Country "United States"
+    Longitude -98.06972
     Internal 1
-    Latitude 45.80998
-    type "Colt connected City"
+    Latitude 27.75225
   ]
   node [
     id 73
-    label "None"
-    hyperedge 1
+    label "CD Juarez"
+    Country "Mexico"
+    Longitude -106.48333
     Internal 1
+    Latitude 31.73333
   ]
   node [
     id 74
-    label "Zurich"
-    Country "Switzerland"
-    Longitude 8.55
+    label "El Paso"
+    Country "Mexico"
+    Longitude -106.48333
     Internal 1
-    Latitude 47.36667
-    type "Data Centre and MAN"
+    Latitude 31.73333
   ]
   node [
     id 75
-    label "Dublin"
-    Country "Ireland"
-    Longitude -6.26719
+    label "Guadalajara"
+    Country "Mexico"
+    Longitude -103.33333
     Internal 1
-    Latitude 53.34399
-    type "MAN"
+    Latitude 20.66667
   ]
   node [
     id 76
-    label "Manchester"
-    Country "United Kingdom"
-    Longitude -2.23743
+    label "Dallas"
+    Country "United States"
+    Longitude -96.80667
     Internal 1
-    Latitude 53.48095
-    type "MAN"
+    Latitude 32.78306
   ]
   node [
     id 77
-    label "Birmingham"
-    Country "United Kingdom"
-    Longitude -1.91667
+    label "San Antonio Taylor"
+    Country "United States"
+    Longitude -98.49363
     Internal 1
-    Latitude 52.46667
-    type "MAN"
+    Latitude 29.42412
   ]
   node [
     id 78
-    label "Ghent"
-    Country "Belgium"
-    Longitude 3.71667
+    label "San Antonio Rotary"
+    Country "United States"
+    Longitude -98.49363
     Internal 1
-    Latitude 51.05
-    type "MAN"
+    Latitude 29.42412
   ]
   node [
     id 79
-    label "None"
-    hyperedge 1
+    label "San Diego"
+    Country "United States"
+    Longitude -117.15726
     Internal 1
+    Latitude 32.71533
   ]
   node [
     id 80
-    label "Valencia"
-    Country "Spain"
-    Longitude -0.37739
+    label "Zamora"
+    Country "Mexico"
+    Longitude -102.26667
     Internal 1
-    Latitude 39.46975
-    type "MAN"
+    Latitude 19.98333
   ]
   node [
     id 81
-    label "Rome"
-    Country "Italy"
-    Longitude 12.4839
+    label "Ensenada"
+    Country "Mexico"
+    Longitude -116.61667
     Internal 1
-    Latitude 41.89474
-    type "MAN"
+    Latitude 31.86667
   ]
   node [
     id 82
-    label "Marseille"
-    Country "France"
-    Longitude 5.38107
+    label "Mexicali"
+    Country "Mexico"
+    Longitude -115.46833
     Internal 1
-    Latitude 43.29695
-    type "MAN"
+    Latitude 32.65194
   ]
   node [
     id 83
-    label "Nice"
-    Country "France"
-    Longitude 7.26608
-    Internal 1
-    Latitude 43.70313
-    type "Colt connected City"
-  ]
-  node [
-    id 84
-    label "Montpellier"
-    Country "France"
-    Longitude 3.88333
-    Internal 1
-    Latitude 43.6
-    type "Colt connected City"
-  ]
-  node [
-    id 85
-    label "Grenoble"
-    Country "France"
-    Longitude 5.71667
-    Internal 1
-    Latitude 45.16667
-    type "Colt connected City"
-  ]
-  node [
-    id 86
-    label "Bordeaux"
-    Country "France"
-    Longitude -0.56667
-    Internal 1
-    Latitude 44.83333
-    type "Colt connected City"
-  ]
-  node [
-    id 87
-    label "Borgomanero"
-    Country "Italy"
-    Longitude 8.45813
-    Internal 1
-    Latitude 45.70237
-    type "Colt connected City"
-  ]
-  node [
-    id 88
-    label "Novara"
-    Country "Italy"
-    Longitude 8.61684
-    Internal 1
-    Latitude 45.44056
-    type "Colt connected City"
-  ]
-  node [
-    id 89
-    label "Biella"
-    Country "Italy"
-    Longitude 8.05002
-    Internal 1
-    Latitude 45.55986
-    type "Colt connected City"
-  ]
-  node [
-    id 90
-    label "Cuneo"
-    Country "Italy"
-    Longitude 7.54453
-    Internal 1
-    Latitude 44.39733
-    type "Colt connected City"
-  ]
-  node [
-    id 91
-    label "Reading"
-    Country "United Kingdom"
-    Longitude -0.97113
-    Internal 1
-    Latitude 51.45625
-    type "Colt connected City"
-  ]
-  node [
-    id 92
-    label "Kolding"
-    Country "Denmark"
-    Longitude 9.47216
-    Internal 1
-    Latitude 55.4904
-    type "Colt connected City"
-  ]
-  node [
-    id 93
-    label "Napoli"
-    Country "Italy"
-    Longitude 14.25
-    Internal 1
-    Latitude 40.83333
-    type "Colt connected City"
-  ]
-  node [
-    id 94
-    label "Ostend"
-    Country "Belgium"
-    Longitude 2.91185
-    Internal 1
-    Latitude 51.22339
-    type "Colt connected City"
-  ]
-  node [
-    id 95
-    label "Venezia"
-    Country "Italy"
-    Longitude 12.32667
-    Internal 1
-    Latitude 45.43861
-    type "Colt connected City"
-  ]
-  node [
-    id 96
-    label "Treviso"
-    Country "Italy"
-    Longitude 12.245
-    Internal 1
-    Latitude 45.66667
-    type "Colt connected City"
-  ]
-  node [
-    id 97
-    label "Graz"
-    Country "Austria"
-    Longitude 15.45
-    Internal 1
-    Latitude 47.06667
-    type "Colt connected City"
-  ]
-  node [
-    id 98
-    label "Bratislava"
-    Country "Slovakia"
-    Longitude 17.10674
-    Internal 1
-    Latitude 48.14816
-    type "Colt connected City"
-  ]
-  node [
-    id 99
-    label "Salzburg"
-    Country "Austria"
-    Longitude 13.04399
-    Internal 1
-    Latitude 47.79941
-    type "Colt connected City"
-  ]
-  node [
-    id 100
-    label "Klagenfurt"
-    Country "Austria"
-    Longitude 14.30528
-    Internal 1
-    Latitude 46.62472
-    type "Colt connected City"
-  ]
-  node [
-    id 101
-    label "Budapest"
-    Country "Hungary"
-    Longitude 19.03991
-    Internal 1
-    Latitude 47.49801
-    type "Colt connected City"
-  ]
-  node [
-    id 102
-    label "Innsbruck"
-    Country "Austria"
-    Longitude 11.39454
-    Internal 1
-    Latitude 47.26266
-    type "Colt connected City"
-  ]
-  node [
-    id 103
-    label "Trento"
-    Country "Italy"
-    Longitude 11.12108
-    Internal 1
-    Latitude 46.06787
-    type "Colt connected City"
-  ]
-  node [
-    id 104
-    label "Bucharest"
-    Country "Romania"
-    Longitude 26.10626
-    Internal 1
-    Latitude 44.43225
-    type "Colt connected City"
-  ]
-  node [
-    id 105
-    label "Modena"
-    Country "Italy"
-    Longitude 10.92539
-    Internal 1
-    Latitude 44.64783
-    type "Colt connected City"
-  ]
-  node [
-    id 106
-    label "Reggio Emilia"
-    Country "Italy"
-    Longitude 10.63125
-    Internal 1
-    Latitude 44.69825
-    type "Colt connected City"
-  ]
-  node [
-    id 107
-    label "Padova"
-    Country "Italy"
-    Longitude 11.88181
-    Internal 1
-    Latitude 45.41519
-    type "Colt connected City"
-  ]
-  node [
-    id 108
-    label "Bologna"
-    Country "Italy"
-    Longitude 11.33875
-    Internal 1
-    Latitude 44.49381
-    type "Colt connected City"
-  ]
-  node [
-    id 109
-    label "Bergamo"
-    Country "Italy"
-    Longitude 9.66895
-    Internal 1
-    Latitude 45.69798
-    type "Colt connected City"
-  ]
-  node [
-    id 110
-    label "Monza"
-    Country "Italy"
-    Longitude 9.27485
-    Internal 1
-    Latitude 45.58248
-    type "Colt connected City"
-  ]
-  node [
-    id 111
-    label "Verona"
-    Country "Italy"
-    Longitude 10.99779
-    Internal 1
-    Latitude 45.43419
-    type "Colt connected City"
-  ]
-  node [
-    id 112
-    label "Brescia"
-    Country "Italy"
-    Longitude 10.22727
-    Internal 1
-    Latitude 45.52478
-    type "Colt connected City"
-  ]
-  node [
-    id 113
-    label "Trieste"
-    Country "Italy"
-    Longitude 13.78
-    Internal 1
-    Latitude 45.64861
-    type "Colt connected City"
-  ]
-  node [
-    id 114
-    label "Vicenza"
-    Country "Italy"
-    Longitude 11.5409
-    Internal 1
-    Latitude 45.55729
-    type "Colt connected City"
-  ]
-  node [
-    id 115
-    label "Lille"
-    Country "France"
-    Longitude 3.06667
-    Internal 1
-    Latitude 50.63333
-    type "Colt connected City"
-  ]
-  node [
-    id 116
-    label "Kortnijk"
-    Country "Belgium"
-    Longitude 3.26487
-    Internal 1
-    Latitude 50.82803
-    type "Colt connected City"
-  ]
-  node [
-    id 117
-    label "Basel"
-    Country "Switzerland"
-    Longitude 7.6
-    Internal 1
-    Latitude 47.56667
-    type "MAN"
-  ]
-  node [
-    id 118
-    label "Strasbourg"
-    Country "France"
-    Longitude 7.75
-    Internal 1
-    Latitude 48.58333
-    type "MAN"
-  ]
-  node [
-    id 119
-    label "Stuttgart"
-    Country "Germany"
-    Longitude 9.17702
-    Internal 1
-    Latitude 48.78232
-    type "MAN"
-  ]
-  node [
-    id 120
-    label "Bern"
-    Country "Switzerland"
-    Longitude 7.44744
-    Internal 1
-    Latitude 46.94809
-    type "MAN"
-  ]
-  node [
-    id 121
-    label "Nantes"
-    Country "France"
-    Longitude -1.55336
-    Internal 1
-    Latitude 47.21725
-    type "MAN"
-  ]
-  node [
-    id 122
-    label "Toulouse"
-    Country "France"
-    Longitude 1.44367
-    Internal 1
-    Latitude 43.60426
-    type "MAN"
-  ]
-  node [
-    id 123
-    label "Lyon"
-    Country "France"
-    Longitude 4.85
-    Internal 1
-    Latitude 45.75
-    type "MAN"
-  ]
-  node [
-    id 124
-    label "Geneve"
-    Country "Switzerland"
-    Longitude 6.14569
-    Internal 1
-    Latitude 46.20222
-    type "MAN"
-  ]
-  node [
-    id 125
-    label "Zug"
-    Country "Switzerland"
-    Longitude 8.51667
-    Internal 1
-    Latitude 47.16667
-    type "MAN"
-  ]
-  node [
-    id 126
-    label "Lugano"
-    Country "Switzerland"
-    Longitude 8.96004
-    Internal 1
-    Latitude 46.01008
-    type "MAN"
-  ]
-  node [
-    id 127
-    label "Bremen"
-    Country "Germany"
-    Longitude 8.80777
-    Internal 1
-    Latitude 53.07516
-    type "Colt connected City"
-  ]
-  node [
-    id 128
-    label "Magdemburg"
-    Country "Germany"
-    Longitude 11.66667
-    Internal 1
-    Latitude 52.16667
-    type "Colt connected City"
-  ]
-  node [
-    id 129
-    label "Utrecht"
-    Country "Netherlands"
-    Longitude 5.12222
-    Internal 1
-    Latitude 52.09083
-    type "Colt connected City"
-  ]
-  node [
-    id 130
-    label "Almere"
-    Country "Netherlands"
-    Longitude 5.21413
-    Internal 1
-    Latitude 52.37025
-    type "Colt connected City"
-  ]
-  node [
-    id 131
-    label "Hilversum"
-    Country "Netherlands"
-    Longitude 5.17639
-    Internal 1
-    Latitude 52.22333
-    type "Colt connected City"
-  ]
-  node [
-    id 132
-    label "Hoofddorp"
-    Country "Netherlands"
-    Longitude 4.68889
-    Internal 1
-    Latitude 52.3025
-    type "Colt connected City"
-  ]
-  node [
-    id 133
-    label "Neuss"
-    Country "Germany"
-    Longitude 6.68333
-    Internal 1
-    Latitude 51.2
-    type "Colt connected City"
-  ]
-  node [
-    id 134
-    label "Wuppertal"
-    Country "Germany"
-    Longitude 7.18333
-    Internal 1
-    Latitude 51.26667
-    type "Colt connected City"
-  ]
-  node [
-    id 135
-    label "Dortmund"
-    Country "Germany"
-    Longitude 7.45
-    Internal 1
-    Latitude 51.51667
-    type "Colt connected City"
-  ]
-  node [
-    id 136
-    label "Essen"
-    Country "Germany"
-    Longitude 7.01667
-    Internal 1
-    Latitude 51.45
-    type "Colt connected City"
-  ]
-  node [
-    id 137
-    label "Barcelona"
-    Country "Spain"
-    Longitude 2.15899
-    Internal 1
-    Latitude 41.38879
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 138
-    label "Turin"
-    Country "Italy"
-    Longitude 7.68682
-    Internal 1
-    Latitude 45.07049
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 139
-    label "Paris"
-    Country "France"
-    Longitude 2.3488
-    Internal 1
-    Latitude 48.85341
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 140
-    label "London"
-    Country "United Kingdom"
-    Longitude -0.12574
-    Internal 1
-    Latitude 51.50853
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 141
-    label "Frankfurt"
-    Country "Germany"
-    Longitude 8.68333
-    Internal 1
-    Latitude 50.11667
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 142
-    label "Brussels"
-    Country "Belgium"
-    Longitude 4.34878
-    Internal 1
-    Latitude 50.85045
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 143
-    label "Amsterdam"
-    Country "Netherlands"
-    Longitude 4.88969
-    Internal 1
-    Latitude 52.37403
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 144
-    label "Berlin"
-    Country "Germany"
-    Longitude 13.41053
-    Internal 1
-    Latitude 52.52437
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 145
-    label "Dijon"
-    Country "France"
-    Longitude 5.01667
-    Internal 1
-    Latitude 47.31667
-    type "Colt connected City"
-  ]
-  node [
-    id 146
-    label "Tours"
-    Country "France"
-    Longitude 0.68333
-    Internal 1
-    Latitude 47.38333
-    type "Colt connected City"
-  ]
-  node [
-    id 147
-    label "Poitiers"
-    Country "France"
-    Longitude 0.33333
-    Internal 1
-    Latitude 46.58333
-    type "Colt connected City"
-  ]
-  node [
-    id 148
-    label "Rennes"
-    Country "France"
-    Longitude -1.68333
-    Internal 1
-    Latitude 48.08333
-    type "Colt connected City"
-  ]
-  node [
-    id 149
-    label "Rouen"
-    Country "France"
-    Longitude 1.09932
-    Internal 1
-    Latitude 49.44313
-    type "Colt connected City"
-  ]
-  node [
-    id 150
-    label "Bristol"
-    Country "United Kingdom"
-    Longitude -2.58333
-    Internal 1
-    Latitude 51.45
-    type "Colt connected City"
-  ]
-  node [
-    id 151
-    label "Madrid"
-    Country "Spain"
-    Longitude -3.70256
-    Internal 1
-    Latitude 40.4165
-    type "Data Centre and MAN"
-  ]
-  node [
-    id 152
-    label "Milan"
-    Country "Italy"
-    Longitude 9.18951
-    Internal 1
-    Latitude 45.46427
-    type "Data Centre and MAN"
+    label "Nogales"
+    Country "Mexico"
+    Longitude -110.93333
+    Internal 1
+    Latitude 31.33333
   ]
   edge [
     source 0
-    target 1
-    LinkLabel "Operational network managed end-to-end"
+    target 43
+    id "e15"
   ]
   edge [
     source 0
+    target 44
+    id "e14"
+  ]
+  edge [
+    source 1
+    target 44
+    id "e18"
+  ]
+  edge [
+    source 1
+    target 45
+    id "e17"
+  ]
+  edge [
+    source 1
+    target 71
+    id "e16"
+  ]
+  edge [
+    source 2
+    target 56
+    id "e12"
+  ]
+  edge [
+    source 2
+    target 3
+    id "e11"
+  ]
+  edge [
+    source 3
+    target 53
+    id "e13"
+  ]
+  edge [
+    source 4
+    target 65
+    id "e23"
+  ]
+  edge [
+    source 4
     target 10
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 0
-    target 99
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 0
-    target 99
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 2
-    target 144
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 2
-    target 51
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 3
-    target 144
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 3
-    target 144
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 4
-    target 8
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 4
-    target 5
-    LinkLabel "Operational network managed end-to-end"
+    id "e24"
   ]
   edge [
     source 5
-    target 144
-    LinkLabel "Operational network managed end-to-end"
+    target 65
+    id "e25"
   ]
   edge [
     source 5
-    target 11
-    LinkLabel "Operational network managed end-to-end"
+    target 27
+    id "e27"
+  ]
+  edge [
+    source 5
+    target 52
+    id "e28"
+  ]
+  edge [
+    source 5
+    target 25
+    id "e26"
   ]
   edge [
     source 6
-    target 11
-    LinkLabel "Operational network managed end-to-end"
+    target 54
+    id "e20"
   ]
   edge [
     source 6
-    target 7
-    LinkLabel "Operational network managed end-to-end"
+    target 71
+    id "e19"
   ]
   edge [
     source 7
-    target 144
-    LinkLabel "Operational network managed end-to-end"
+    target 29
+    id "e21"
+  ]
+  edge [
+    source 7
+    target 30
+    id "e22"
   ]
   edge [
     source 8
-    target 13
-    LinkLabel "Operational network managed end-to-end"
+    target 9
+    id "e83"
+  ]
+  edge [
+    source 8
+    target 75
+    id "e84"
   ]
   edge [
     source 9
-    target 13
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 9
-    target 13
-    LinkLabel "Operational network managed end-to-end"
+    target 10
+    id "e29"
   ]
   edge [
     source 10
-    target 97
-    LinkLabel "Operational network managed end-to-end"
+    target 55
+    id "e31"
   ]
   edge [
     source 10
-    target 97
-    LinkLabel "Operational network managed end-to-end"
+    target 55
+    id "e30"
   ]
   edge [
-    source 10
-    target 98
-    LinkLabel "Operational network managed end-to-end"
+    source 11
+    target 60
+    id "e33"
   ]
   edge [
-    source 10
-    target 98
-    LinkLabel "Operational network managed end-to-end"
+    source 11
+    target 60
+    id "e32"
   ]
   edge [
-    source 10
-    target 101
-    LinkLabel "Operational network managed end-to-end"
+    source 11
+    target 55
+    id "e35"
   ]
   edge [
-    source 10
-    target 11
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 10
-    target 13
-    LinkLabel "Operational network managed end-to-end"
+    source 11
+    target 55
+    id "e34"
   ]
   edge [
     source 12
-    target 141
-    LinkLabel "Operational network managed end-to-end"
+    target 66
+    id "e74"
   ]
   edge [
     source 12
-    target 30
-    LinkLabel "Operational network managed end-to-end"
+    target 59
+    id "e40"
   ]
   edge [
     source 13
-    target 119
-    LinkLabel "Operational network managed end-to-end"
+    target 75
+    id "e81"
+  ]
+  edge [
+    source 13
+    target 36
+    LinkType "Microwave"
+    LinkLabel "Microwave"
+  ]
+  edge [
+    source 13
+    target 55
+    id "e53"
   ]
   edge [
     source 14
-    target 17
-    LinkLabel "Operational network managed end-to-end"
+    target 58
+    id "e43"
   ]
   edge [
     source 14
-    target 141
-    LinkLabel "Operational network managed end-to-end"
+    target 19
+    id "e77"
   ]
   edge [
     source 15
-    target 18
-    LinkLabel "Operational network managed end-to-end"
+    target 58
+    id "e44"
+  ]
+  edge [
+    source 15
+    target 58
+    LinkLabel "Via TeleReunion"
   ]
   edge [
     source 15
     target 19
-    LinkLabel "Operational network managed end-to-end"
+    LinkLabel "Via TeleReunion"
   ]
   edge [
     source 15
-    target 132
-    LinkLabel "Operational network managed end-to-end"
+    target 19
+    id "e78"
   ]
   edge [
     source 16
-    target 51
-    LinkLabel "Operational network managed end-to-end"
+    target 18
+    id "e66"
   ]
   edge [
     source 16
-    target 60
-    LinkLabel "Operational network managed end-to-end"
+    target 63
+    id "e49"
   ]
   edge [
     source 17
-    target 136
-    LinkLabel "Operational network managed end-to-end"
+    target 49
+    id "e67"
   ]
   edge [
     source 17
-    target 134
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 17
-    target 133
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 17
-    target 133
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 17
-    target 143
-    LinkLabel "Operational network managed end-to-end"
+    target 78
+    id "e5"
   ]
   edge [
     source 18
-    target 142
-    LinkLabel "Operational network managed end-to-end"
+    target 21
+    id "e58"
+  ]
+  edge [
+    source 18
+    target 22
+    id "e59"
+  ]
+  edge [
+    source 18
+    target 31
+    id "e97"
+  ]
+  edge [
+    source 18
+    target 31
+    id "e96"
   ]
   edge [
     source 19
-    target 49
-    LinkLabel "Operational network managed end-to-end"
+    target 32
+    id "e95"
+  ]
+  edge [
+    source 19
+    target 32
+    id "e94"
+  ]
+  edge [
+    source 19
+    target 33
+    id "e93"
+  ]
+  edge [
+    source 19
+    target 38
+    id "e76"
+  ]
+  edge [
+    source 19
+    target 59
+    id "e42"
+  ]
+  edge [
+    source 19
+    target 59
+    id "e41"
   ]
   edge [
     source 20
-    target 23
-    LinkLabel "Operational network managed end-to-end"
+    target 48
+    id "e57"
+  ]
+  edge [
+    source 20
+    target 22
+    id "e56"
   ]
   edge [
     source 21
-    target 81
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 22
-    target 23
-    LinkLabel "Operational network managed end-to-end"
+    target 61
+    id "e52"
   ]
   edge [
     source 23
-    target 151
-    LinkLabel "Operational network managed end-to-end"
+    target 25
+    id "e60"
   ]
   edge [
     source 23
-    target 151
-    LinkLabel "Operational network managed end-to-end"
+    target 31
+    id "e61"
   ]
   edge [
     source 24
-    target 81
-    LinkLabel "Operational network managed end-to-end"
+    target 28
+    id "e63"
   ]
   edge [
-    source 25
-    target 81
-    LinkLabel "Operational network managed end-to-end"
+    source 24
+    target 31
+    id "e62"
   ]
   edge [
     source 26
-    target 81
-    LinkLabel "Operational network managed end-to-end"
+    target 27
+    id "e64"
   ]
   edge [
-    source 27
-    target 81
-    LinkLabel "Operational network managed end-to-end"
+    source 26
+    target 28
+    id "e65"
   ]
   edge [
-    source 28
-    target 140
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 28
-    target 29
-    LinkLabel "Operational network managed end-to-end"
+    source 29
+    target 75
+    id "e85"
   ]
   edge [
     source 30
-    target 118
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 30
-    target 119
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 31
-    target 119
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 31
-    target 119
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 32
-    target 33
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 32
-    target 35
-    LinkLabel "Operational network managed end-to-end"
+    target 45
+    id "e86"
   ]
   edge [
     source 33
-    target 74
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 33
-    target 38
-    LinkLabel "Operational network managed end-to-end"
+    target 60
+    id "e37"
   ]
   edge [
     source 34
-    target 119
-    LinkLabel "Operational network managed end-to-end"
+    target 81
+    LinkType "Microwave"
+    LinkLabel "Microwave"
   ]
   edge [
     source 34
-    target 119
-    LinkLabel "Operational network managed end-to-end"
+    target 82
+    LinkType "Microwave"
+    LinkLabel "Microwave"
+  ]
+  edge [
+    source 34
+    target 79
+    id "e6"
   ]
   edge [
     source 35
-    target 74
-    LinkLabel "Operational network managed end-to-end"
+    target 40
+    id "e91"
+  ]
+  edge [
+    source 35
+    target 53
+    id "e92"
   ]
   edge [
     source 36
-    target 73
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 36
-    target 39
-    LinkLabel "Operational network managed end-to-end"
+    target 80
+    LinkType "Microwave"
+    LinkLabel "Microwave"
   ]
   edge [
     source 37
-    target 73
-    LinkLabel "Operational network managed end-to-end"
+    target 60
+    id "e36"
+  ]
+  edge [
+    source 37
+    target 38
+    id "e75"
   ]
   edge [
     source 38
-    target 74
-    LinkLabel "Operational network managed end-to-end"
+    target 59
+    id "e39"
   ]
   edge [
     source 39
-    target 124
-    LinkLabel "Operational network managed end-to-end"
+    target 40
+    id "e90"
   ]
   edge [
     source 40
-    target 142
-    LinkLabel "Operational network managed end-to-end"
+    target 41
+    id "e89"
   ]
   edge [
     source 41
-    target 142
-    LinkLabel "Operational network managed end-to-end"
+    target 42
+    LinkType "Microwave"
+    LinkLabel "Microwave"
   ]
   edge [
-    source 42
-    target 142
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 43
-    target 142
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 44
-    target 142
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 45
-    target 49
-    LinkLabel "Operational network managed end-to-end"
+    source 41
+    target 43
+    id "e87"
   ]
   edge [
     source 46
-    target 142
-    LinkLabel "Operational network managed end-to-end"
+    target 69
+    id "e69"
+  ]
+  edge [
+    source 46
+    target 47
+    id "e68"
   ]
   edge [
     source 47
-    target 142
-    LinkLabel "Operational network managed end-to-end"
+    target 78
+    id "e3"
   ]
   edge [
     source 48
-    target 49
-    LinkLabel "Operational network managed end-to-end"
+    target 54
+    id "e55"
   ]
   edge [
     source 49
-    target 129
-    LinkLabel "Operational network managed end-to-end"
+    target 72
+    id "e70"
   ]
   edge [
     source 50
-    target 56
-    LinkLabel "Operational network managed end-to-end"
+    target 70
+    id "e73"
   ]
   edge [
     source 50
-    target 58
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 50
-    target 51
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 50
-    target 52
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 50
-    target 53
-    LinkLabel "Operational network managed end-to-end"
+    target 62
+    id "e50"
   ]
   edge [
     source 51
-    target 136
-    LinkLabel "Operational network managed end-to-end"
+    target 72
+    id "e71"
   ]
   edge [
     source 51
-    target 53
-    LinkLabel "Operational network managed end-to-end"
+    target 67
+    id "e72"
   ]
   edge [
-    source 51
-    target 92
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 51
-    target 127
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 51
-    target 127
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 53
-    target 92
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 54
-    target 139
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 54
-    target 140
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 54
-    target 55
-    LinkLabel "Operational network managed end-to-end"
+    source 52
+    target 60
+    id "e38"
   ]
   edge [
     source 55
-    target 140
-    LinkLabel "Operational network managed end-to-end"
+    target 66
+    id "e54"
   ]
   edge [
     source 56
-    target 57
-    LinkLabel "Operational network managed end-to-end"
+    target 83
+    id "e9"
   ]
   edge [
-    source 56
-    target 57
-    LinkLabel "Operational network managed end-to-end"
+    source 57
+    target 64
+    LinkLabel "Via TeleReunion"
   ]
   edge [
-    source 56
-    target 59
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 58
-    target 59
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 60
-    target 128
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 60
-    target 144
-    LinkLabel "Operational network managed end-to-end"
+    source 57
+    target 58
+    LinkLabel "Via TeleReunion"
   ]
   edge [
     source 61
-    target 81
-    LinkLabel "Operational network managed end-to-end"
+    target 69
+    id "e51"
   ]
   edge [
     source 62
-    target 115
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 62
-    target 140
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 62
-    target 94
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 63
-    target 125
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 63
-    target 126
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 64
-    target 72
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 64
-    target 126
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 65
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 66
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 66
-    target 68
-    LinkLabel "Operational network managed end-to-end"
+    target 63
+    id "e48"
   ]
   edge [
     source 67
-    target 152
-    LinkLabel "Operational network managed end-to-end"
+    target 68
+    id "e98"
   ]
   edge [
     source 68
-    target 81
-    LinkLabel "Operational network managed end-to-end"
+    target 69
+    id "e100"
   ]
   edge [
     source 68
-    target 108
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 69
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 70
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 71
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 72
-    target 152
-    LinkLabel "Operational network managed end-to-end"
+    target 70
+    id "e99"
   ]
   edge [
     source 73
-    target 120
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 73
-    target 117
-    LinkLabel "Operational network managed end-to-end"
+    target 74
+    LinkType "Microwave"
+    LinkLabel "Microwave"
   ]
   edge [
     source 74
-    target 117
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 74
-    target 125
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 75
-    target 140
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 75
-    target 150
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 76
-    target 140
-    LinkLabel "Operational network managed end-to-end"
+    target 78
+    LinkLabel "Via Broadwing"
   ]
   edge [
     source 76
     target 77
-    LinkLabel "Operational network managed end-to-end"
+    LinkLabel "Via Time Warner and QWest"
   ]
   edge [
     source 77
-    target 150
-    LinkLabel "Operational network managed end-to-end"
+    target 78
+    id "e1"
   ]
   edge [
-    source 78
-    target 115
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 78
-    target 94
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 78
-    target 142
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 79
-    target 137
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 79
-    target 122
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 79
-    target 84
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 80
-    target 137
-    LinkLabel "Shared service operations"
-  ]
-  edge [
-    source 80
-    target 151
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 81
-    target 107
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 81
-    target 93
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 82
-    target 123
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 82
-    target 138
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 82
-    target 83
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 82
-    target 84
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 85
-    target 123
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 86
-    target 121
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 86
-    target 122
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 86
-    target 151
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 87
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 88
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 89
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 90
-    target 138
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 91
-    target 140
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 91
-    target 150
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 95
-    target 107
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 96
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 97
-    target 100
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 97
-    target 100
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 98
-    target 101
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 99
-    target 102
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 99
-    target 102
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 101
-    target 104
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 101
-    target 104
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 103
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 105
-    target 106
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 105
-    target 108
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 106
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 107
-    target 111
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 109
-    target 112
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 109
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 110
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 111
-    target 112
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 113
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 114
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 115
-    target 139
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 116
-    target 142
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 117
-    target 118
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 118
-    target 139
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 121
-    target 148
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 123
-    target 145
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 123
-    target 139
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 123
-    target 124
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 129
-    target 131
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 130
-    target 143
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 131
-    target 143
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 132
-    target 143
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 134
-    target 135
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 135
-    target 136
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 138
-    target 152
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 139
-    target 146
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 139
-    target 149
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 140
-    target 142
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 146
-    target 147
-    LinkLabel "Operational network managed end-to-end"
-  ]
-  edge [
-    source 148
-    target 149
-    LinkLabel "Operational network managed end-to-end"
+    source 77
+    target 79
+    LinkLabel "Via Global Crossing"
   ]
 ]
