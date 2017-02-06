@@ -136,18 +136,6 @@ def ParserTest(TestCase):
     
     eq_(parsed_words, [])
 
-def TestSemanticPy(TestCase):
-    def setUp(self):
-    
-    def it_should_search_test(self):
-        vectorSpace = VectorSpace(self.documents)
-    
-
-    def it_should_find_return_similarity_rating_test(self):
-        vectorSpace = VectorSpace(self.documents)
-
-        eq_(vectorSpace.related(0), [1.0, 0.9922455760198575, 0.08122814162371816, 0.0762173599906487])
-
 def dirichlet_expectation(alpha):
     """
     For a vector theta ~ Dir(alpha), computes E[log(theta)] given alpha.
