@@ -8,10 +8,7 @@ import includes
 filename = sys.argv[-1]
 print('file name selected is {0}'.format(filename))
 raw_input("press enter to continue")
-if filename == 'agis.gml' or filename == 'Agis.gml':
-  gap()
-if filename == 'Bestel.gml' or filename == 'bestel.gml':
-  gapPlot()
+import libraries
 centers = [[1, 1], [-1, -1], [1, -1]]
 X, labels_true = make_blobs(n_samples=100, centers=centers, cluster_std=0.5,
   random_state=0)
