@@ -184,8 +184,6 @@ def kmeans(points, k, cutoff):
 def getDistance(a, b):
     '''
     Euclidean distance between two n-dimensional points.
-    https://en.wikipedia.org/wiki/Euclidean_distance#n_dimensions
-    Note: This can be very slow and does not scale well
     '''
     if a.n != b.n:
         raise Exception("ERROR: non comparable points")
