@@ -2,7 +2,7 @@ from definition import plotPloty
 import math
 import random
 state = plotPloty()
-print(state)
+# print(state)
 plotly = False
 try:
     import plotly
@@ -19,20 +19,32 @@ def openFile():
     if filename == 'agis.gml' or filename == 'Agis.gml':
       valuesel = raw_input("Select K range from 0 to 3 : ")
       print('K selected is {0}'.format(valuesel))
+      if int(valuesel) == keyBoardVal:
+        for node in nodeList:
+            print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
+            print('Cluster head %s has nodes:',nodeNumList)
       return valuesel
     if filename == 'Bestel.gml' or filename == 'bestel.gml':
       valuesel = raw_input("Select K range from 0 to 4 : ")
       print('K selected is {0}'.format(valuesel))
+      if int(valuesel) == keyBoardVal:
+        for node in nodeList:
+            print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
+            print('Cluster head %s has nodes:',nodeNumList)
       return valuesel
     if filename == 'Cwix.graphml' or filename == 'cwix.graphml':
       valuesel = raw_input("Select K range from 0 to 2 : ")
       print('K selected is {0}'.format(valuesel))
+      if int(valuesel) == keyBoardVal:
+        for node in nodeList:
+            print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
+            print('Cluster head %s has nodes:',nodeNumList)
       return valuesel
 
 def main():
 
     # How many points are in our dataset?
-    num_points = 20
+    num_points = 10
 
     # For each of those points how many dimensions do they have?
     # Note: Plotting will only work in two or three dimensions
@@ -55,11 +67,11 @@ def main():
 
     # Cluster those data!
     clusters = kmeans(points, num_clusters, cutoff)
-    print(clusters)
+    # print(clusters)
     # Print our clusters
     for i, c in enumerate(clusters):
         for p in c.points:
-            print " Cluster: ", i, "\t Point :", p
+            print " Cluster: ", i+1, "\t Point :", p
 
     # Display clusters using plotly for 2d data
     if dimensions in [2, 3] and plotly:
