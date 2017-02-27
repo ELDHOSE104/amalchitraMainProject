@@ -10,6 +10,25 @@ try:
 except ImportError:
     print "INFO: Plotly is not installed, plots will not be generated."
 
+def openFile():
+    import sys
+    import includes
+    filename = sys.argv[-1]
+    print('file name selected is {0}'.format(filename))
+    filename = sys.argv[-1]
+    if filename == 'agis.gml' or filename == 'Agis.gml':
+      valuesel = raw_input("Select K range from 0 to 3 : ")
+      print('K selected is {0}'.format(valuesel))
+      return valuesel
+    if filename == 'Bestel.gml' or filename == 'bestel.gml':
+      valuesel = raw_input("Select K range from 0 to 4 : ")
+      print('K selected is {0}'.format(valuesel))
+      return valuesel
+    if filename == 'Cwix.graphml' or filename == 'cwix.graphml':
+      valuesel = raw_input("Select K range from 0 to 2 : ")
+      print('K selected is {0}'.format(valuesel))
+      return valuesel
+
 def main():
 
     # How many points are in our dataset?
