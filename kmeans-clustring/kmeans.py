@@ -2,7 +2,7 @@ from definition import plotPloty
 import math
 import random
 state = plotPloty()
-# print(state)
+print(state)
 plotly = False
 try:
     import plotly
@@ -43,7 +43,7 @@ def main():
     upper = 200
 
     # The K in k-means. How many clusters do we assume exist?
-    num_clusters = 3
+    num_clusters = int(state)
 
     # When do we say the optimization has 'converged' and stop updating clusters
     cutoff = 0.2
@@ -55,7 +55,7 @@ def main():
 
     # Cluster those data!
     clusters = kmeans(points, num_clusters, cutoff)
-
+    print(clusters)
     # Print our clusters
     for i, c in enumerate(clusters):
         for p in c.points:
@@ -196,7 +196,7 @@ def kmeans(points, k, cutoff):
 
         # If the centroids have stopped moving much, say we're done!
         if biggest_shift < cutoff:
-            print "Converged after %s iterations" % loopCounter
+            # print "Converged after %s iterations" % loopCounter
             break
     return clusters
 
