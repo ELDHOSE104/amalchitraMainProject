@@ -25,6 +25,7 @@ def openFile():
         for node in nodeList:
             print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
             print('Cluster head %s has nodes:',nodeNumList)
+            plotNumber = getNodeList(fileSelected)
       return valuesel
     if filename == 'Bestel.gml' or filename == 'bestel.gml':
       valuesel = raw_input("Select K range from 0 to 4 : ")
@@ -33,6 +34,7 @@ def openFile():
         for node in nodeList:
             print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
             print('Cluster head %s has nodes:',nodeNumList)
+            plotNumber = getNodeList(fileSelected)
       return valuesel
     if filename == 'Cwix.graphml' or filename == 'cwix.graphml':
       valuesel = raw_input("Select K range from 0 to 2 : ")
@@ -41,6 +43,7 @@ def openFile():
         for node in nodeList:
             print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
             print('Cluster head %s has nodes:',nodeNumList)
+            plotNumber = getNodeList(fileSelected)
       return valuesel
 
 def main():
