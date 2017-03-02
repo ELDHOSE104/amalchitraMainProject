@@ -972,6 +972,17 @@ def plotPloty():
         print('Cluster head 24 has nodes:  16 17 18 19 20 21 22 28 11 35 29 3 4 5 6 7 1 2 23 25 26 27 12 13 14')
       return valuesel
 
+def getValueOfFile():
+    import sys
+    import includes
+    filename = sys.argv[-1]
+    if filename == 'Cwix.graphml' or filename == 'cwix.graphml':
+        return 35
+    if filename == 'Bestel.gml' or filename == 'bestel.gml':
+        return 83
+    if filename == 'agis.gml' or filename == 'Agis.gml':
+        return 24
+
 def gapPlotMeta():
     from sklearn.cluster import AffinityPropagation
     from sklearn import metrics
