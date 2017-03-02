@@ -49,7 +49,7 @@ def openFile():
 def main():
 
     # How many points are in our dataset?
-    num_points = 100
+    num_points = int(state)
 
     # For each of those points how many dimensions do they have?
     # Note: Plotting will only work in two or three dimensions
@@ -60,7 +60,7 @@ def main():
     upper = 200
 
     # The K in k-means. How many clusters do we assume exist?
-    num_clusters = int(plotNumber)
+    num_clusters = int(state)
 
     # When do we say the optimization has 'converged' and stop updating clusters
     cutoff = 0.2
