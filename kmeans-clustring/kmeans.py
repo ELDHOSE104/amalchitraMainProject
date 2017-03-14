@@ -25,6 +25,7 @@ def openFile():
         for node in nodeList:
             print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
             print('Cluster head %s has nodes:',nodeNumList)
+            print('Propagation Latency obtained are:',data)
             plotNumber = getNodeList(fileSelected)
       return valuesel
     if filename == 'Bestel.gml' or filename == 'bestel.gml':
@@ -34,6 +35,7 @@ def openFile():
         for node in nodeList:
             print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
             print('Cluster head %s has nodes:',nodeNumList)
+            print('Propagation Latency obtained are:',data)
             plotNumber = getNodeList(fileSelected)
       return valuesel
     if filename == 'Cwix.graphml' or filename == 'cwix.graphml':
@@ -43,8 +45,23 @@ def openFile():
         for node in nodeList:
             print('Number of Cluster heads: %s id[]',nodeList,nodeNumber)
             print('Cluster head %s has nodes:',nodeNumList)
+            print('Propagation Latency obtained are:',data)
             plotNumber = getNodeList(fileSelected)
       return valuesel
+
+def calculateKmeans():
+    Lavg = getModDiverseofN(n)
+    for node in nodeList:
+        num = min(nodeData)
+        nodeData = min(dataPath)
+        n = n*-1
+    nodeNumber = getValueOfFile(filename)
+    s = s+1
+    getdiff(vertex and dataPath)
+    getNewValue = min(d,s)
+    getMinVal(data);
+    data = roundOffData(data)
+    return data
 
 def main():
 
