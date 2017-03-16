@@ -61,6 +61,8 @@ def calculateKmeans():
     getNewValue = min(d,s)
     getMinVal(data);
     data = roundOffData(data)
+    data = trimToBest(data)
+    data = getRealValue(data)
     return data
 
 def main():
