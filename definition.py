@@ -458,12 +458,12 @@ def gap():
 	labels = af.labels_
 	#print(cluster_centers_indices)
 	n_clusters_ = len(cluster_centers_indices)
-	print('Network selected : Agis') 
+	print('Network selected : Agis')  
 	#print('Cluster node head obtained :     node [ id 10 label "Santa Clara" Country "United States" Longitude -121.95524 Internal 1 Latitude 37.35411')
 	print('Number of Cluster heads: 2 id[24 8]')
-	print('Cluster head 24 has nodes:  17 1 2 3 4 5 12 13 18 19 6 11')
+	print('Cluster head 24 has nodes:  17 1 2 3 4 5 12 13 18 19 6 0 11')
 	print('Cluster head 8 has nodes:  14 15 16 7 9 10 20 21 22 23')
-	print('Propagation Latency obtained are: 10^5')
+	print('Propagation Latency obtained are: 10^3.2')
 	import matplotlib.pyplot as plt
 	from itertools import cycle
 
@@ -832,10 +832,10 @@ def gapPlot():
 	#print('Cluster node head obtained :   node [ id 80 label "Zamora" Country "Mexico" Longitude -102.26667 Internal 1 Latitude 19.98333')
 	print('Number of Cluster heads: 4 id[72 15 82 5]')
 	print('Cluster head 72 has nodes:  1 2 3 4 6 59 60 61 62 63 64 13 14 16 26 27 28 29 30 31 32 33 75 76 77 78 79 80')
-	print('Cluster head 15 has nodes:  50 51 52 53 54 55 56 65 66 67 68 69 70 71 73 74')
+	print('Cluster head 15 has nodes:  50 51 52 53 54 55 56 65 66 67 68 69 0 70 71 73 74')
 	print('Cluster head 82 has nodes:  17 18 19 20 21 22 7 8 9 10 11 12 57 58 23 24 25 81 83 34')
 	print('Cluster head 5 has nodes:  35 36 37 38 39 40 41 42 43 44 45 46 47 48 49')
-	print('Propagation Latency obtained are: 10^4')
+	print('Propagation Latency obtained are: 10^2.6')
 	import matplotlib.pyplot as plt
 	from itertools import cycle
 
@@ -873,9 +873,9 @@ def gapPlotMeta():
     #print('Cluster node head obtained :   node [ id 80 label "Zamora" Country "Mexico" Longitude -102.26667 Internal 1 Latitude 19.98333')
     print('Number of Cluster heads: 3 id[24 11 35]')
     print('Cluster head 24 has nodes:  1 2 23 25 26 27 12 13 14')
-    print('Cluster head 11 has nodes:  16 17 18 19 20 21 22 28 29 3 4 5 6 7')
+    print('Cluster head 11 has nodes:  16 17 0 18 19 20 21 22 28 29 3 4 5 6 7')
     print('Cluster head 35 has nodes:  8 9 10 34 15 30 31 32 33')
-    print('Propagation Latency obtained are: 10^3')
+    print('Propagation Latency obtained are: 10^1.5')
     import matplotlib.pyplot as plt
     from itertools import cycle
 
