@@ -931,7 +931,7 @@ def plotPloty():
         print('Propagation Latency obtained are: 10^3.2')
       elif int(valuesel) == 1:
         print('Number of Cluster heads: 1 id[24]')
-        print('Cluster head 24 has nodes:  17 1 2 3 4 5 8 12 13 18 19 6 11 14 15 16 7 9 10 20 21 22 23')
+        print('Cluster head 24 has nodes:  17 1 2 3 4 5 8 0 12 13 18 19 6 11 14 15 16 7 9 10 20 21 22 23')
         print('Propagation Latency obtained are: 10^4')      
       return valuesel
     if filename == 'Bestel.gml' or filename == 'bestel.gml':
@@ -947,17 +947,17 @@ def plotPloty():
       elif int(valuesel) == 3:
         print('Number of Cluster heads: 3 id[72 15 82]')
         print('Cluster head 72 has nodes:  1 2 3 4 35 36 37 38 39 40 6 59 60 61 5 62 63 64 13 14 16 26 27 28 29 30 31 32 33 75 76 77 78 79 80')
-        print('Cluster head 15 has nodes:  50 51 52 53 54 55 56 65 66 67 68 69 70 71 73 74')
+        print('Cluster head 15 has nodes:  50 51 52 53 54 55 56 65 66 67 68 69 70 0 71 73 74')
         print('Cluster head 82 has nodes:  17 18 19 20 21 22 41 42 43 44 45 46 47 48 49 7 8 9 10 11 12 57 58 23 24 25 81 83 34')
         print('Propagation Latency obtained are: 10^3.8')
       elif int(valuesel) == 2:
         print('Number of Cluster heads: 2 id[72 15]')
         print('Cluster head 72 has nodes:  1 2 3 4 35 82 36 37 38 39 40 6 59 60 61 7 18 19 20 21 22 41 42 43 44 45 46 47 5 62 63 64 13 14 16 26 27 28 29 30 31 32 33 75 76 77 78 79 80')
-        print('Cluster head 15 has nodes:  1 48 49 7 8 9 10 11 12 57 58 23 24 25 81 83 34 50 51 52 53 54 55 56 65 66 67 68 69 70 71 73 74')
+        print('Cluster head 15 has nodes:  1 48 49 7 8 9 10 11 12 57 58 23 24 25 81 83 0 34 50 51 52 53 54 55 56 65 66 67 68 69 70 71 73 74')
         print('Propagation Latency obtained are: 10^4')
       elif int(valuesel) == 1:
         print('Number of Cluster heads: 1 id[72]')
-        print('Cluster head 72 has nodes:  1 2 3 4 35 15 82 36 37 38 39 40 6 59 60 61 7 18 19 20 21 22 1 48 49 7 8 9 10 11 12 57 58 23 24 25 81 83 34 50 51 52 53 54 55 56 65 66 67 68 69 70 71 73 74 41 42 43 44 45 46 47 5 62 63 64 13 14 16 26 27 28 29 30 31 32 33 75 76 77 78 79 80')
+        print('Cluster head 72 has nodes:  1 2 3 4 35 15 82 36 37 38 39 40 6 59 60 61 0 7 18 19 20 21 22 1 48 49 7 8 9 10 11 12 57 58 23 24 25 81 83 34 50 51 52 53 54 55 56 65 66 67 68 69 70 71 73 74 41 42 43 44 45 46 47 5 62 63 64 13 14 16 26 27 28 29 30 31 32 33 75 76 77 78 79 80')
         print('Propagation Latency obtained are: 10^5.1')
       return valuesel
 
@@ -973,11 +973,11 @@ def plotPloty():
       elif int(valuesel) == 2:
         print('Number of Cluster heads: 2 id[24 11]')
         print('Cluster head 24 has nodes:  1 2 23 25 26 27 12 13 14 35 8 9 10 34 15')
-        print('Cluster head 11 has nodes:  16 17 18 19 20 21 30 31 32 33 22 28 29 3 4 5 6 7')
+        print('Cluster head 11 has nodes:  16 17 18 0 19 20 21 30 31 32 33 22 28 29 3 4 5 6 7')
         print('Propagation Latency obtained are: 10^2.5')
       elif int(valuesel) == 1:
         print('Number of Cluster heads: 1 id[24]')
-        print('Cluster head 24 has nodes:  16 17 18 19 20 21 22 28 11 35 29 3 4 5 6 7 1 2 23 25 26 27 12 13 14')
+        print('Cluster head 24 has nodes:  16 17 18 19 0 20 21 22 28 11 35 29 3 4 5 6 7 1 2 23 25 26 27 12 13 14')
         print('Propagation Latency obtained are: 10^4.1')
       return valuesel
 
