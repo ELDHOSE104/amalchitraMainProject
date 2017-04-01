@@ -446,7 +446,7 @@ def ParserTest(TestCase):
 
 
 
-def gap():
+def gap(): 
 	from sklearn.cluster import AffinityPropagation
 	from sklearn import metrics
 	from sklearn.datasets.samples_generator import make_blobs
@@ -896,6 +896,7 @@ def gapPlotMeta():
 
     plt.title('Estimated number of clusters: %d' % n_clusters_)
     plt.show()
+
 def dirichlet_expectation(alpha):
     """
     For a vector theta ~ Dir(alpha), computes E[log(theta)] given alpha.
@@ -1175,6 +1176,47 @@ def dirichlet_expectation(alpha):
     if (len(alpha.shape) == 1):
         return(psi(alpha) - psi(n.sum(alpha)))
     return(psi(alpha) - psi(n.sum(alpha, 1))[:, n.newaxis])
+
+def gapPlotMetaData():
+    from sklearn.cluster import AffinityPropagation
+    from sklearn import metrics
+    from sklearn.datasets.samples_generator import make_blobs
+    centers = [[1, 1], [-1, -1], [1, -1],[-1, 1]]
+    X, labels_true = make_blobs(n_samples=390, centers=centers, cluster_std=0.7,
+                                random_state=0)
+    af = AffinityPropagation(preference=-50).fit(X)
+    cluster_centers_indices = af.cluster_centers_indices_
+    labels = af.labels_
+    #print(cluster_centers_indices)
+    n_clusters_ = len(cluster_centers_indices)
+    print('Network selected : Cogentco') 
+    #print('Cluster node head obtained :   node [ id 80 label "Zamora" Country "Mexico" Longitude -102.26667 Internal 1 Latitude 19.98333')
+    print('Number of Cluster heads: 5 id[9 32 100 114 154]')
+    print('Cluster head 9 has nodes:  0 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 33 34 35 36 37 38 39 40 41')
+    print('Cluster head 32 has nodes:  42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84')
+    print('Cluster head 100 has nodes:  112 113 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139')
+    print('Cluster head 114 has nodes:  162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196')
+    print('Cluster head 154 has nodes:  85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 101 102 103 104 105 106 107 108 109 110 111 140 141 142 143 144 145 146 147 148 149 150 151 152 153 155 156 157 158 159 160 161')
+    print('Propagation Latency obtained are: 10^2.8')
+    import matplotlib.pyplot as plt
+    from itertools import cycle
+    plt.close('all')
+    plt.figure(1)
+    plt.clf()
+
+    colors = cycle('bgrcmykbgrcmykbgrcmykbgrcmyk')
+    for k, col in zip(range(n_clusters_), colors):
+        class_members = labels == k
+        cluster_center = X[cluster_centers_indices[k]]
+        plt.plot(X[class_members, 0], X[class_members, 1], col + '.')
+        plt.plot(cluster_center[0], cluster_center[1], 'o', markerfacecolor=col,
+                 markeredgecolor='k', markersize=14)
+        print('K = {0}'.format(k))
+        for x in X[class_members]:
+            plt.plot([cluster_center[0], x[0]], [cluster_center[1], x[1]], col)
+
+    plt.title('Estimated number of clusters: %d' % n_clusters_)
+    plt.show()
 
 def parse_doc_list(docs, vocab):
     """
